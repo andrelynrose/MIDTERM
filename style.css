@@ -1,80 +1,69 @@
-/* Default Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
 table {
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #fff;
 }
 
 th, td {
-    padding: 12px;
+    padding: 10px;
     text-align: center;
-    border: 1px solid #ddd;
 }
 
-th {
+/* Default Blue and Yellow Style */
+.default-table {
+    border: 2px solid #333;
+    background-color: #f4f8ff;
+}
+
+.default-table th {
+    background-color: #0044cc;
+    color: white;
+}
+
+.default-table td {
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+/* Green Theme */
+.green-theme th {
     background-color: #4CAF50;
     color: white;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-tr:hover {
-    background-color: #ddd;
-}
-
-/* Style 2 */
-.style2 table {
-    width: 60%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #eeeeee;
-}
-
-.style2 th, .style2 td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #555;
-}
-
-.style2 th {
-    background-color: #333;
+.green-theme td {
+    background-color: #8bc34a;
     color: white;
 }
 
-.style2 tr:nth-child(even) {
-    background-color: #d9d9d9;
-}
-
-.style2 tr:hover {
-    background-color: #cccccc;
-}
-
-/* Style 3 */
-.style3 table {
-    width: 70%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #f9f9f9;
-}
-
-.style3 th, .style3 td {
-    padding: 15px;
-    text-align: left;
-    border: 2px solid #888;
-}
-
-.style3 th {
-    background-color: #FF5722;
+/* Red Theme */
+.red-theme th {
+    background-color: #f44336;
     color: white;
 }
 
-.style3 tr:nth-child(even) {
-    background-color: #ffe0b2;
+.red-theme td {
+    background-color: #ff7961;
+    color: white;
 }
 
-.style3 tr:hover {
-    background-color: #ffccbc;
+/* Purple Theme */
+.purple-theme th {
+    background-color: #9c27b0;
+    color: white;
+}
+
+.purple-theme td {
+    background-color: #e1bee7;
+    color: white;
+}
+
+.subjects {
+    margin-top: 30px;
 }
